@@ -1,12 +1,9 @@
-# Sap HANA 2.0 + MySQL Docker dev setup
+# Storage(s) [MySQL] Docker dev setup
 
-Simple developer environment based on Docker that contains SAP Hana 2.0 and MySQL
+Simple developer environment based on Docker that contains some storages (like MySQL)
 
 It will expose (if you are using vagrant) in the normal ports. (Check ````config/docker-compose.yml```` to see which ports exactly)
 
-## SAP Hana 
-
-https://hub.docker.com/r/nguoianphu/docker-hana/
 
 ## MySQL
 
