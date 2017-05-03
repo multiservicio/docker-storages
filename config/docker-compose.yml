@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mysql
+    container_name: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      - "MYSQL_ROOT_PASSWORD=qwerty7"
+      - "MYSQL_DATABASE=hybris"
+      - "MYSQL_USER=hybris"
+      - "MYSQL_PASSWORD=hybris"
+
+volumes:
+    mysql-data:
